@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.krobot",
+    "module": "krobot-framework",
+    "version": "3.0.0-ALPHA-10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "x36e3l4i2bgftpv2cthpb464fe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "krobot-framework-3.0.0-ALPHA-10.jar",
+          "url": "krobot-framework-3.0.0-ALPHA-10.jar",
+          "size": 133194,
+          "sha512": "7be3ec89d416852490b6c2465331e4f9aac8b4693473b8fd2abc522d763ca1827cb70ab40cae169aeb53a70d134f2effe4b8774c6b8008e7ec0c8e83f4fd1efa",
+          "sha256": "46933a60721f153910698a789543420d4ad002ad2a456f1c786f9ce0a5f49129",
+          "sha1": "79ab75afb67d688b39ba00a99a5a873576fbe5ea",
+          "md5": "b3962ec7dfb0fe755b855ca55e496c7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.11"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "4.2.0_204"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.3"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.13.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "20.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "1.18"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline",
+          "version": {
+            "requires": "3.16.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20200518"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "krobot-framework-3.0.0-ALPHA-10.jar",
+          "url": "krobot-framework-3.0.0-ALPHA-10.jar",
+          "size": 133194,
+          "sha512": "7be3ec89d416852490b6c2465331e4f9aac8b4693473b8fd2abc522d763ca1827cb70ab40cae169aeb53a70d134f2effe4b8774c6b8008e7ec0c8e83f4fd1efa",
+          "sha256": "46933a60721f153910698a789543420d4ad002ad2a456f1c786f9ce0a5f49129",
+          "sha1": "79ab75afb67d688b39ba00a99a5a873576fbe5ea",
+          "md5": "b3962ec7dfb0fe755b855ca55e496c7d"
+        }
+      ]
+    }
+  ]
+}
